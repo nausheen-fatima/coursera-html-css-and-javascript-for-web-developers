@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:hover, a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.link, .link:hover, .link:focus {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #999999;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  #boxed-header {
+    padding-left: 15px;
+  }
+}
+
+#boxed-header {
+  border: 3px solid black;
+  height: 85px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.navbar-header button.navbar-toggle {
+  height: 60px;
+  width: 60px;
+  padding: 7px;
+}
+
+.navbar-header .icon-bar {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+
+.navbar-toggle.collapsed, .navbar-toggle.collapsed > * {
+  border: 3px solid black;
+}
+
+.navbar-toggle, .navbar-toggle > * {
+  border: 3px solid white;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+  background-color: #999999;
+}
+
+#collapsable-navbar * {
+  text-align: center;
+  color: black;
+}
+
+#collapsable-navbar ul {
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  border: 1px solid black;
+  font-size: 1.5em;
+}
+
+.box {
+  border: 0;
+  background-color: #999999;
+  position: relative;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
