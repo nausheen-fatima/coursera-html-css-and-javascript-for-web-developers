@@ -1,0 +1,8 @@
+title: coursera-html-css-and-javascript-for-web-developers
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
